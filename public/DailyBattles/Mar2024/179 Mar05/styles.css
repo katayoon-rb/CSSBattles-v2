@@ -1,0 +1,37 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #611B1A;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.oneFourthTR,
+.oneFourthTL {
+  width: 530px;
+  height: 530px;
+  border: 40px solid transparent;
+  border-radius: 50%;
+
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 23.75%;
+}
+  .oneFourthTR {
+    right: -305px;
+    border-top-color: #F16B4A;
+  }
+  .oneFourthTL {
+    left: -305px; 
+    border-right-color: #F16B4A;
+  }

@@ -1,0 +1,25 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #7E2926;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  width: 0;
+  height: 100px;
+  border-width: 100px 75px;
+  border-style: solid;
+  border-color: #FEFF92 #DEB365 #FEFF92 #D2934B;
+}

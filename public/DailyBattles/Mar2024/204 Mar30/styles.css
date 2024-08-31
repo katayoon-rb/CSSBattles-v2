@@ -1,0 +1,39 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #DBBEDF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.centerRec {
+  height: 120px;
+  width: 90px;
+  background: #81008F;
+}
+
+.left, .right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} 
+  .left { left: 18.75%; bottom: 0; }
+  .right { right: 18.75%; top: 0; }
+  
+.rec {
+  height: 140px;
+  width: 80px;
+  background: #81008F;
+}
+  .smRec { height: 20px; }
