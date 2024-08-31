@@ -1,0 +1,29 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #0D004C;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.line {
+  height: 30px;
+  width: 120px;
+  background: #B8B7CC;
+}
+
+.right { margin-left: 120px; }
+.left { margin-right: 120px; }

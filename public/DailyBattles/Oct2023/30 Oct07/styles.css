@@ -1,0 +1,54 @@
+* { margin: 0; }
+  body {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .wrap {
+    width: 400px;
+    height: 400px;
+    background: #A9C482;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .line {
+    background: #2D696F;
+    width: 40px;
+    position: absolute;
+  }
+  .line1 { height: 230px; }
+    .right .line1 { top: 0; right: 60px; }
+    .left .line1 { bottom: 0; left: 60px; }
+  
+  .semi-circle {
+    width: 80px;
+    height: 80px;
+    
+    border: 40px solid; 
+    border-color: #2D696F transparent transparent #2D696F;
+    border-radius: 50%;
+    
+    position: absolute;
+    
+  }
+    .right .semi-circle {
+      transform: rotate(-140deg);
+      bottom: 90px;
+      right: 60px;
+    }
+    .left .semi-circle {
+      transform: rotate(40deg);
+      top: 90px;
+      left: 60px;
+    }
+  
+  .line2 { height: 18px; }
+    .right .line2 { top: 220px; right: 180px; }
+    .left .line2 { bottom: 220px; left: 180px; }

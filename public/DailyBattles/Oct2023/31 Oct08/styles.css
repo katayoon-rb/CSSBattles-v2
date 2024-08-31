@@ -1,0 +1,37 @@
+* { margin: 0; }
+  body {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .wrap {
+    width: 400px;
+    height: 400px;
+    background: #ED6A9D;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+  }
+  .circle {
+    width: 160px;
+    height: 160px;
+    transform: rotate(-45deg);
+    
+    border: 40px solid #050044;
+    border-radius: 50%
+  }
+
+  .lines > div {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #ED6A9D;
+ }
+  .hor { width: 300px; height: 40px; }
+  .ver { width: 40px; height: 300px; }

@@ -1,0 +1,36 @@
+* { margin: 0; }
+  body {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .wrap {
+    width: 400px;
+    height: 400px;
+    background: #FEFAE3;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+  }
+  .wrap div {
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background: #D4A469;
+  }
+  div.left,
+  div.right {
+    z-index: 2;
+    transform: rotate(-45deg);
+    width: 150px;
+    background: #B17036;
+  }
+    div.left { left: 85px; top: 140px}
+    div.right { right: 85px; bottom: 140px}

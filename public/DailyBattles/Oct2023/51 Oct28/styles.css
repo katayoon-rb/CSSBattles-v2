@@ -1,0 +1,40 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #B8B7CC;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.rec {
+  width: 250px;
+  height: 150px;
+  background: #1E1E5A;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+}
+  .top { 
+    top: 75px;
+    background: linear-gradient(#1E1E5A 50.5%, #B8B7CC 50.5%);
+  }
+  .bottom {
+    bottom: 75px;
+    background: linear-gradient(#B8B7CC 50%, #1E1E5A 50%);
+  }

@@ -1,0 +1,41 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #4F77FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.sq {
+  width: 100.7px;
+  height: 101px;
+  background: #fff;
+}
+.overlay {
+  width: 400px;
+  height: 400px;
+  background: #284ED0;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+}
+  .overlay .sq {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    background: #8092D0;
+  }

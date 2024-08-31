@@ -1,0 +1,33 @@
+* { margin: 0; }
+  body {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .wrap {
+    width: 400px;
+    height: 400px;
+    background: #DA30D4;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+  }
+  .wrap div {
+    background: #DA30D4;
+    width: 60px;
+    height: 60px;
+    border: 30px solid #0C0C49;
+    border-radius: 50%;
+  }
+  div.center {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  div.left { margin-right: 20px;}
+  div.right { margin-left: 20px;}

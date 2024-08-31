@@ -1,0 +1,27 @@
+* { margin: 0; }
+  body {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .wrap {
+    width: 400px;
+    height: 400px;
+    background: #A9C482;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .two, .three, .top, .bottom { background: #2D696F; }
+
+  .three { width: 50px; height: 50px; }
+  .two { width: 50px; height: 150px; }
+  .top, .bottom { width: 50px; height: 100px; }
+
+  .bottom { margin-top: 50px; }
