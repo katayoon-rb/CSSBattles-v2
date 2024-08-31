@@ -1,0 +1,28 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #5B8395;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.TD {
+  border: 80px solid;
+  border-color: #E3F5FD transparent;
+}
+.LR {
+  position: absolute;
+  width: 80px;
+  border: 80px solid;
+  border-color: transparent #E3F5FD;
+}

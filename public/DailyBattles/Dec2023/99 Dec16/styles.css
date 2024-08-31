@@ -1,0 +1,35 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F58220;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  border-radius: 0 0 150px 150px;
+
+  position: absolute;
+  top: 35%
+}
+  .big {
+    width: 240px;
+    height: 120px;
+    background: #5E0000;
+  }
+  .small {
+    width: 100px;
+    height: 50px;
+    background: #BA131A;
+  }

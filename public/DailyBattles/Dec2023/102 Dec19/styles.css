@@ -1,0 +1,37 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #006645;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.vers { display: flex; }
+  .vers div {
+    width: 30px;
+    height: 400px;
+    background: #DDE89A;
+    margin: 0 15px;
+  }
+
+.hors {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+  .hors div {
+    width: 400px;
+    height: 30px;
+    background: #DDE89A;
+    margin: 15px 0;
+  }

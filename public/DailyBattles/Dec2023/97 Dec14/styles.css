@@ -1,0 +1,30 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #D4EFFC;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line { display: flex; }
+  .line .sq { margin: -6px 8px; }
+.sq {
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  transform: rotate(45deg);
+}
+  .sqL { background: #7BAFDE; }
+  .sqM { background: #6867D4; }
+  .sqD { background: #000039; }

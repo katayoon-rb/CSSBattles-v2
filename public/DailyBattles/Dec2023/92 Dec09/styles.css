@@ -1,0 +1,35 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #302562;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.LR, .RL { position: absolute; }
+  .LR { transform: rotate(45deg); }
+  .RL { transform: rotate(-45deg); }
+    .LR div, .RL div {
+      width: 220px;
+      height: 40px;
+      background: #0098D1;
+      margin: 20px 0;
+    }
+
+.bigSq {
+  transform: rotate(45deg);
+  width: 60px;
+  height: 60px;
+  background: #0098D1;
+  outline: 40px solid #302562;
+}

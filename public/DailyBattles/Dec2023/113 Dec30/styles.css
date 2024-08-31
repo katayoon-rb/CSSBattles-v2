@@ -1,0 +1,37 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #A49FBB;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.shape {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.triT, .triB {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+}
+  .triT { border-bottom: 60px solid #291D61; }
+  .triB { border-top: 60px solid #291D61; }
+.line {
+  width: 260px;
+  height: 30px;
+  background: #291D61;
+}

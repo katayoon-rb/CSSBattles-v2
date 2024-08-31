@@ -1,0 +1,45 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #371948;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.vers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .vers div {
+    width: 30px;
+    height: 180px;
+    background: #B0ACD5;
+    position: absolute;
+  }
+    .vers .top { top: 20px; left: 21%; }
+    .vers .bottom { bottom: 20px; right: 21.5%; }
+
+.hors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .hors div {
+    width: 90px;
+    height: 30px;
+    background: #B0ACD5;
+    position: absolute;
+  }
+    .hors .top { top: 27.5%; left: 25%; }
+    .hors .bottom { bottom: 42.5%; right: 25%; }

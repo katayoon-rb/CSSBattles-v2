@@ -1,0 +1,35 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F26522;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+  
+.tLeft,
+.tRight {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+}
+  .tLeft { border-right: 60px solid #FFF33E; }
+  .tRight { border-left: 60px solid #FCAF17; }
+
+.lines div {
+  width: 120px;
+  height: 40px;
+  background: #FCAF17;
+}
+  .lines .middle { background: #FFF33E; }

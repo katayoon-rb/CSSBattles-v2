@@ -1,0 +1,34 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #B0ACD5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.semiCir {
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  border: 60px solid;
+  border-color: #6A5885 transparent transparent #6A5885;
+  border-radius: 50%;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  background: #6A5885;
+  border-radius: 50%;
+  margin-top: -80px;
+}

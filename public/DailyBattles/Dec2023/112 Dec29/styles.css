@@ -1,0 +1,32 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #223B1E;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tri {
+  margin-top: -80px;
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  border-bottom: 100px solid #A6CE39;
+}
+.cir {
+  width: 160px;
+  height: 80px;
+  border-radius:0 0 150px 150px;
+  background: #A6CE39;
+}
