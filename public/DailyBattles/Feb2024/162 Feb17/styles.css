@@ -1,0 +1,30 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #B8B4CC;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  display: flex;
+  gap: 50px;
+}
+.wrap div div {
+  width: 50px;
+  height: 50px;
+  background: #453867;
+  border-radius: 10px;
+  transform: rotate(45deg);
+}

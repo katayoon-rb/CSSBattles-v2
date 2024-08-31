@@ -1,0 +1,33 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #024817;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.wrap div { background: #CCE9D3; }
+  .small {
+    width: 40px;
+    height: 20px;
+  }
+  .medium {
+    width: 120px;
+    height: 40px;
+  }
+  .big {
+    width: 200px;
+    height: 40px;
+    margin: 15px 0;
+  }

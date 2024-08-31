@@ -1,0 +1,36 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F49FC7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+}
+  .big {
+    border: 240px solid transparent;
+    border-bottom: 300px solid #810070;
+  }
+  .medium {
+    border: 200px solid transparent;
+    border-bottom: 250px solid #F49FC7;
+  }
+  .small {
+    border: 140px solid transparent;
+    border-bottom: 175px solid #810070;
+  }

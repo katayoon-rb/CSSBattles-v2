@@ -1,0 +1,27 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #2BBBF3;
+  gap: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  width: 50px;
+  background: #D8EFDD;
+  border-radius: 10px;
+}
+  .height1 { height: 100px; }
+  .height2 { height: 150px; }
+  .height3 { height: 200px; }

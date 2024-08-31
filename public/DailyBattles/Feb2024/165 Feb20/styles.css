@@ -1,0 +1,31 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #4A1818;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bgSq {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to right, #F16B4A 80px, #4A1818 80px, #4A1818 120px, #F16B4A 120px)
+}
+
+.smSq {
+  width: 60px;
+  height: 60px;
+  background: #F16B4A;
+  border: 30px solid #4A1818;
+  position: absolute;
+}

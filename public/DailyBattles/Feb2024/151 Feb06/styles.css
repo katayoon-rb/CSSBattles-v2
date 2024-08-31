@@ -1,0 +1,37 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #5C507C;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hors { display: flex; }
+  .hors div {
+    width: 140px;
+    height: 40px;
+    background: #C7BFE1;
+  }
+  
+.vers {
+  display: flex;
+  position: absolute;
+}
+  .vers div {
+    width: 40px;
+    height: 120px;
+    background: #C7BFE1;
+  }
+
+.mt { margin-top: 40px; }
+.mb { margin-bottom: 40px; }
