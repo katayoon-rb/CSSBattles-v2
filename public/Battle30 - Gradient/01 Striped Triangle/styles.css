@@ -1,0 +1,39 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #40234B;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tri {
+  width: 230px;
+  height: 200px;
+  background: #A94EA4;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.cover {
+  position: absolute;
+  left: 19%;
+  top: 10%;
+  
+  display: flex;
+  gap: 16px;
+  transform: rotate(30deg);
+}
+  .cover div {
+    width: 10px;
+    height: 250px;
+    background: #40234B;
+  }

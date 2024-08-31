@@ -1,0 +1,37 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #FFFD9B;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  display: flex;
+  gap: 60px;
+}
+  .wrap div div {
+    background: #969610;
+    border-radius: 20px;
+  }
+  
+.hors { flex-direction: column; }
+  .hors div { width: 340px; height: 20px; }
+
+.vers { position: absolute; }
+  .vers div { width: 20px; height: 240px; }
+
+.plus {
+  background: #646521 !important;
+  z-index: 2;
+}

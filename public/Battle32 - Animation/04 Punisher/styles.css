@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #CAE5DC;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.head {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background: #000;
+  border-radius: 50%;
+  margin-top: 11px
+}
+.head::after {
+  content: '';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  
+  width: 100px;
+  height: 20px;
+  background: #000;
+  margin-top: -10px;
+}
+
+.eyes div {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 45px;
+  height: 23px;
+  background: #CAE5DC;
+  border-radius: 0 0 150px 150px;
+}
+.eyes .left {
+  top: 47.25%;
+  left: 38.5%;
+  rotate: 27deg;
+}
+.eyes .right {
+  top: 42%;
+  left: 60.25%;
+  rotate: -27deg;
+}
+
+.nose {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 30px solid #CAE5DC;
+}
+  
+.teeth {
+  display: flex;
+  gap: 5px;
+}
+.teeth div {
+  width: 15px;
+  height: 93px;
+  background: #000;
+}

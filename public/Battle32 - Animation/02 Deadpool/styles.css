@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F3AC3C;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.head {
+  width: 166px;
+  height: 166px;
+  background-image: linear-gradient(to left, #000 39%, #9F3333 39%, #9F3333 61%, #000 61%);
+  border: 17px solid #9F3333;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.eyes div {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  
+  width: 30px;
+  height: 15px;
+  background: #fff;
+  border-radius: 0 0 150px 150px;
+}
+.eyes .left {
+  top: 51.25%;
+  left: 36.25%;
+  rotate: 27deg;
+}
+.eyes .right {
+  top: 48%;
+  left: 62.5%;
+  rotate: -27deg;
+}

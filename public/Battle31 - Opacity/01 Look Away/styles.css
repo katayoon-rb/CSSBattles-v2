@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #131313;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.blob {
+  width: 240px;
+  height: 190px;
+  background: #f9c96c;
+  border-radius: 145px 145px 265px 265px;
+  rotate: -15deg;
+  overflow: hidden;
+}
+
+.blob::before,
+.blob::after {
+  content: "";
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+  padding: 150px;
+  border-radius: 50%;
+}
+.blob::before {
+  top: 60%;
+  left: 25%;
+  background: #e89a52;
+}
+.blob::after {
+  top: 55%;
+  left: 8%;
+  background: #f459e3;
+}
+
+.eyes {
+  display: flex;
+  gap: 56px;
+
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 57.5%;
+  left: 21.75%;
+}
+
+.eyes div {
+  position: relative;
+  height: 50px;
+  width: 25px;
+
+  border: 15px solid #131313;
+  border-right: 0;
+  border-radius: 150px 0 0 150px;
+  transform: translate(100px) rotate(-90deg);
+}
+.eyes div::before,
+.eyes div::after {
+  content: "";
+  position: absolute;
+  left: 19px;
+
+  width: 15px;
+  height: 15px;
+  background: #131313;
+  border-radius: 50%;
+}
+.eyes div::before {
+  top: -14.75px;
+}
+.eyes div::after {
+  top: 50px;
+}

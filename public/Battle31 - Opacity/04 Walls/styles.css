@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #6867d4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center {
+  height: 200px;
+  width: 100px;
+  background: #7bafde;
+  transform: skewY(25.5deg);
+}
+
+.dark {
+  height: 100px;
+  width: 100px;
+  background: #000039;
+  transform: skewY(-26.5deg);
+}
+
+.light {
+  height: 100px;
+  width: 50px;
+  background: #7bafde;
+  transform: skewY(26.5deg);
+}
+.light.lR {
+  margin-top: 27px;
+}
+.light.lL {
+  margin-bottom: 27px;
+}

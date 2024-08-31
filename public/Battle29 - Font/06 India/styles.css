@@ -1,0 +1,61 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 300px;
+  background: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.orange,
+.green {
+  width: 400px;
+  height: 150px;
+}
+  .orange { background: #F19E4B; }
+  .green { background: #3F8627; }
+
+.shape {
+  width: 400px;
+  height: 100px;
+  background: #fff;
+  
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .shape div { position: absolute; }
+    .outer {
+      width: 60px;
+      height: 60px;
+      border: 10px solid #00007B;
+      border-radius: 50%;
+    }
+    .inner {
+      width: 20px;
+      height: 20px;
+      background: #00007B;
+      border-radius: 50%;
+    }
+    .lines div {
+      width: 4px;
+      height: 40px;
+      background: #00007B;
+    }
+      .line1 { transform: translate(-2px, -40px); }
+      .line2 { transform: rotate(60deg) translate(-19px, -20px); }
+      .line3 { transform: rotate(120deg) translate(-17px, -8px); }
+      .line4 { transform: translate(-2px, -2px); }
+      .line5 { transform: rotate(-120deg) translate(19px, -2px); }
+      .line6 { transform: rotate(-60deg) translate(17px, -25px); }

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #fad3e5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line {
+  width: 50px;
+  height: 400px;
+  background: #8b0051;
+}
+
+.diamonds {
+  position: absolute;
+}
+.diamonds div {
+  width: 250px;
+  height: 180px;
+  position: relative;
+  clip-path: polygon(50% 15%, 100% 50%, 50% 85%, 0% 50%);
+  background: #8b0051;
+}
+.topDi {
+  margin-bottom: -60px;
+}

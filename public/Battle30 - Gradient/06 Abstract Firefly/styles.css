@@ -1,0 +1,24 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #1D471D;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.firefly {
+  width: 275px;
+  height: 150px;
+  background: #CCE58E;
+  clip-path: polygon(0 0, 41% 10%, 50% 34%, 59% 10%, 100% 0, 80% 42%, 67% 38%, 70% 60%, 50% 100%, 30% 60%, 33% 38%, 20% 42%);
+}
