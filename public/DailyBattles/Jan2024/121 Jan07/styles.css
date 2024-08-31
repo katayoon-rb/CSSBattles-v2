@@ -1,0 +1,31 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F89F65;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skewY(17deg);
+  margin-bottom: 10px;
+}
+  .container div {
+    width: 20px;
+    height: 120px;
+    background: #5E0000;
+    margin: 0 10px
+  }

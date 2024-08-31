@@ -1,0 +1,34 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #009247;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  height: 140px;
+  background: #F0F8F1;
+}
+  .behind {
+    width: 240px;
+    border-radius: 70px 0;
+  }
+  .front {
+    width: 160px;
+    position: absolute;
+    left: 35%;
+    
+    border: 20px solid #009247;
+    border-radius: 90px 0;
+  }
