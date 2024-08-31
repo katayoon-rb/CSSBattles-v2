@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F48B26;
+  gap: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left,
+.right {
+  width: 150px;
+  height: 300px;
+  background: #FEFF58;
+}
+.left {
+  border-radius: 0 150px 150px 0;
+}
+.right {
+  border-radius: 150px 0 0 150px;
+}
+
+.shape {
+  align-self: flex-end;
+}
+.shape .dot {
+  width: 50px;
+  height: 50px;
+  background: #FEFF58;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.shape .line {
+  width: 50px;
+  height: 210px;
+  background: #FEFF58;
+  border-radius: 150px 150px 0 0;
+}

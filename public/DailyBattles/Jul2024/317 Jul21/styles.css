@@ -1,0 +1,47 @@
+ * {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #0A6190;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.plus div {
+  width: 50px;
+  height: 200px;
+  background: #328FC1;
+}
+.plus .hor {
+  transform: translate(-50%, -50%) rotate(90deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+  
+.cover .T,
+.cover .B {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #0A6190;
+}
+  .top .T { top: 40.5%; left: 47%; }
+  .top .B { top: 47%; left: 40.5%; }
+  .center .T { top: 47%; left: 53%; }
+  .center .B { top: 53%; left: 47%; }
+  .bottom .T { top: 59.25%; left: 53.25%; }
+  .bottom .B { top: 53.25%; left: 59.25%; }

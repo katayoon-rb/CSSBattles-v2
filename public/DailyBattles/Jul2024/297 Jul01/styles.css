@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #eff8fe;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.arrow {
+  position: relative;
+  width: 60px;
+  height: 320px;
+  background: #4f77ff;
+  border-radius: 0 0 50px 50px;
+}
+
+.arrow::before,
+.arrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+
+  width: 60px;
+  height: 190px;
+  background: #4f77ff;
+  border-radius: 50px;
+}
+.arrow::before {
+  left: -75%;
+  rotate: -40deg;
+}
+.arrow::after {
+  left: 75%;
+  rotate: 40deg;
+}

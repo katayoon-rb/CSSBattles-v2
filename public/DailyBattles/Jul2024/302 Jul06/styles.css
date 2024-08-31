@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #243D83;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.shape,
+.shape::before,
+.shape::after {
+  border: 20px solid #6592CF;
+  border-radius: 150px 150px 0 0;
+}
+.shape::before,
+.shape::after {
+  content: '';
+  transform: translate(-50%);
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+}
+  
+.shape::before {
+  width: 240px;
+  height: 250px;
+}
+.shape {
+  width: 160px;
+  height: 210px;
+}
+.shape::after {
+  width: 80px;
+  height: 170px;
+}

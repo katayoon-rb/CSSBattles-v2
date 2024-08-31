@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #0A6190;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #328FC1;
+  border-radius: 50%;
+}
+
+.circle::after {
+  content: '';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(to right, #0A6190 15%, #328FC1 15%, #328FC1 25%, #0A6190 25%, #0A6190 75%, #328FC1 75%, #328FC1 85%, #0A6190 85%);
+}

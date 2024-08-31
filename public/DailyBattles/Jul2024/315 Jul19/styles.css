@@ -1,0 +1,38 @@
+ * {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #6592CF;
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rec {
+  width: 300px;
+  height: 120px;
+  background: #243D83;
+}
+
+.recs {
+  display: flex;
+  gap: 20px;
+}
+.recs div {
+  height: 20px;
+  background: #243D83;
+}
+.recs .short { width: 60px; }
+.recs .long { width: 140px; }

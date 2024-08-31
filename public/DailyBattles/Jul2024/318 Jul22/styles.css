@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #B53733;
+  gap: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  width: 20px;
+  height: 150px;
+  background: #EA7457;
+}
+.one { margin-bottom: 170px; }
+.two { margin-bottom: 90px; }
+.three { margin-bottom: 10px; }
+.four { margin-bottom: -70px; }
+.five { margin-bottom: -150px; }

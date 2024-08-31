@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #4F77FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.moon, 
+.cover {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+  
+.moon {
+  background: #FFFFFF;
+}
+.moon.left {
+  top: 38.5%;
+  left: 26.5%;
+}
+.moon.right {
+  top: 61%;
+  left: 73.5%;
+}
+
+.cover {
+  background: #4F77FF;
+}
+.cover.left {
+  top: 48.5%;
+  left: 36.25%;
+}
+.cover.right {
+  top: 51%;
+  left: 63.5%;
+}
