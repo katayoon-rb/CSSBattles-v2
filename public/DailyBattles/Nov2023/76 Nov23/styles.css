@@ -1,0 +1,39 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #811E1F;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.plus div div {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #F1F1F2;
+}
+  .ver .line { width: 40px; height: 120px; }
+    .ver .sq.sqT { top: 25%; }
+    .ver .sq.sqB { top: 75%; }
+  
+  .hor .line { width: 120px; height: 40px; }
+    .hor .sq.sqL { left: 25%; }
+    .hor .sq.sqR { left: 75%; }
+
+  
+.sq { width: 40px; height: 40px; }
+  
+.sqLine { display: flex; } 
+  .sqLine .sq { background: #F1F1F2; margin: 40px; } 

@@ -1,0 +1,41 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #D0AF50;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circles { display: flex }
+  .circles div {
+    width: 40px;
+    height: 40px;
+    background: #8C292A;
+    border-radius: 50%;
+    margin: 20px 10px;
+  }
+
+.rec {
+  width: 160px;
+  height: 40px;
+  background: #8C292A;
+}
+
+.halfCircle {
+  width: 160px;
+  height: 80px;
+  border-radius:0 0 150px 150px;
+  background-color: #8C292A;
+  margin: 20px 0;
+}

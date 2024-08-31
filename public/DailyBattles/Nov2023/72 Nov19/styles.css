@@ -1,0 +1,31 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #791E4D;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sq {
+  width: 51px;
+  height: 51px;
+  background: #FFC5DD;
+  margin: -8px 10px;
+  transform: rotate(45deg);
+}

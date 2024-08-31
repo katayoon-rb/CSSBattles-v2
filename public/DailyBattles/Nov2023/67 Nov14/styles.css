@@ -1,0 +1,26 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #C1A936;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sq {
+  width: 50px;
+  height: 50px;
+  margin: 50px 0;
+}
+  .lr { margin-bottom: 50px; }
+    .lr div { background: #FFFCDF; }
+  .center { margin-top: 50px; }
+    .center div { background: #FFF56D; }

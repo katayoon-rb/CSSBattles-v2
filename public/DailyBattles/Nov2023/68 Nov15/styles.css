@@ -1,0 +1,42 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #2C4228;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line1, .line2 {
+  display: flex;
+  margin-top: 30px;
+}
+  .sq {
+    width: 30px;
+    height: 30px;
+    background: #A6CE39;
+    margin: 0 15px;
+  }
+
+.line3 {
+  width: 150px;
+  height: 30px;
+  background: #A6CE39;
+}
+
+.line4 {
+  width: 30px;
+  height: 130px;
+  background: #A6CE39;
+  margin-bottom: -40px;
+}

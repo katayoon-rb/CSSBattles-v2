@@ -1,0 +1,38 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #9B3E41;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  .left, .right {
+    width: 0;
+    height: 0;
+    border-top: 85px solid transparent;
+    border-bottom: 85px solid transparent;
+  } 
+    .right {
+      border-left: 85px solid #FFDC57;
+      margin-left: 25px;
+    } 
+    .left {
+      border-right: 85px solid #FFDC57;
+      margin-right: 25px;
+    } 
+
+.center {
+  width: 120px;
+  height: 120px;
+  background: #FFFEF2;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,35 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #E0DA8E;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 270px;
+  height: 120px;
+  background: #898329;
+}
+
+.recs {
+  display: flex;
+  position: absolute;
+}
+.recs div {
+  width: 30px;
+  height: 60px;
+  background: #E0DA8E;
+  margin: 0 15px;
+}

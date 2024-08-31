@@ -1,0 +1,24 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #000;
+  border: 15px solid #777;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div { background: #fff; }
+  .line1 { width: 400px; height: 50px; margin: 1.5px; }
+  .line2 { width: 360px; height: 40px; margin: 19px; }
+  .line3 { width: 320px; height: 60px; }

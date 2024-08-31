@@ -1,0 +1,30 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #8C80BB;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sq {
+  width: 40px;
+  height: 40px;
+  background: #FCDFEB;
+}
+  .pu-sq { background: #8C80BB; }
