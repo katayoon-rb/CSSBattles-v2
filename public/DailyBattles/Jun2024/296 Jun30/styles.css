@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #0a6190;
+  gap: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center {
+  width: 60px;
+  height: 60px;
+  border: 30px solid #328fc1;
+  border-radius: 50%;
+}
+
+.top,
+.bottom {
+  width: 160px;
+  height: 80px;
+  background: #328fc1;
+  border-radius: 50%;
+}
+.top {
+  border-radius: 0px 0px 150px 150px;
+}
+.bottom {
+  border-radius: 150px 150px 0px 0px;
+}

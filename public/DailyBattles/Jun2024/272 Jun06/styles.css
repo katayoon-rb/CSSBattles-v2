@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #243d83;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circles {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.circles div {
+  display: flex;
+  gap: 200px;
+}
+.cir {
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(
+    to bottom,
+    #6592cf 40%,
+    #243d83 40%,
+    #243d83 60%,
+    #6592cf 60%
+  );
+  border-radius: 50%;
+}

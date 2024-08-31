@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #be3184;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  width: 140px;
+  height: 40px;
+  background: #be3184;
+  border: 30px solid #611b3f;
+}
+
+.shape::before,
+.shape::after {
+  content: "";
+  transform: translate(-50%);
+  position: absolute;
+
+  width: 100px;
+  height: 180px;
+  background: #611b3f;
+}
+.shape::before {
+  top: 0%;
+  left: 62.3%;
+}
+.shape::after {
+  bottom: 0%;
+  left: 37.5%;
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #81008f;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ears {
+  width: 240px;
+  height: 30px;
+  background: #dbbedf;
+  border-radius: 10px 10px 50px 50px;
+}
+
+.head {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 120px;
+  height: 100px;
+  background: #dbbedf;
+  border-radius: 50%;
+}
+
+.head::before,
+.head::after {
+  content: "";
+  position: absolute;
+  top: 47%;
+
+  width: 25px;
+  height: 30px;
+  background: #81008f;
+  border-radius: 50%;
+}
+.head::before {
+  left: 18.5%;
+  rotate: -50deg;
+}
+.head::after {
+  left: 60.5%;
+  rotate: 50deg;
+}

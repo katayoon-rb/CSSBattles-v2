@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #4f77ff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.one,
+.two {
+  display: flex;
+  gap: 20px;
+}
+.one {
+  margin-bottom: -10px;
+}
+.two {
+  margin-top: -10px;
+}
+
+.rec {
+  width: 90px;
+  height: 140px;
+  background: #fff;
+}
+
+.cup {
+  width: 50px;
+  height: 100px;
+  border: 20px solid #fff;
+}
+.one .cup {
+  border-top: 0;
+  margin-right: 160px;
+}
+.two .cup {
+  border-bottom: 0;
+  margin-left: 160px;
+  margin-top: 20px;
+}

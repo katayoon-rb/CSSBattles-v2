@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #f48b26;
+  gap: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  display: flex;
+  gap: 10px;
+}
+
+.bgRec,
+.smRec {
+  height: 50px;
+  background: #feff58;
+}
+.bgRec {
+  width: 200px;
+}
+
+.one .smRec {
+  width: 120px;
+}
+.two .smRec {
+  width: 100px;
+}
+.three .smRec {
+  width: 80px;
+}
+.four .smRec {
+  width: 60px;
+}

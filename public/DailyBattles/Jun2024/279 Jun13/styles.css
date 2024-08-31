@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #f59426;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  height: 160px;
+  width: 120px;
+  background: #fff;
+}
+
+.shape::before,
+.shape::after {
+  content: "";
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+}
+.shape::before {
+  width: 220px;
+  height: 40px;
+}
+.shape::after {
+  width: 50px;
+  height: 240px;
+}

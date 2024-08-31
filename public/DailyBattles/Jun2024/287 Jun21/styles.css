@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #f48b26;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.bigRec {
+  width: 200px;
+  height: 300px;
+  background: #feff58;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.lines div {
+  width: 150px;
+  height: 50px;
+  background: #feff58;
+}

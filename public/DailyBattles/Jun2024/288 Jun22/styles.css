@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #6592cf;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hor {
+  width: 100px;
+  height: 60px;
+  background: #243d83;
+}
+.horDown {
+  width: 140px;
+  margin-top: 120px;
+}
+
+.ver {
+  width: 75px;
+  height: 400px;
+  background: #243d83;
+}
