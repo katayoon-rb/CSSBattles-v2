@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #ea6b62;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.topThing {
+  height: 200px;
+  width: 100px;
+  background: #ea6b62;
+  border: 150px solid #512b2a;
+  border-top: 0;
+  border-bottom: 0;
+}

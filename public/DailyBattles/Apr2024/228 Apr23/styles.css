@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #f48b26;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.recs {
+  display: flex;
+}
+.recs div {
+  width: 60px;
+  height: 150px;
+  background: #feff58;
+  border-radius: 20px 20px 0 0;
+}
+
+.cover {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 65%;
+  left: 50%;
+
+  display: flex;
+  gap: 30px;
+}
+.cover div {
+  width: 40px;
+  height: 30px;
+  background: #f48b26;
+}

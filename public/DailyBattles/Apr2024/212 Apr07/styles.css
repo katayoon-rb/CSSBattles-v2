@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #ccc9db;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.base {
+  height: 120px;
+  width: 280px;
+  background: #6f5aaf;
+  border-radius: 25px;
+}
+
+.dots,
+.screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dots {
+  display: flex;
+  gap: 200px;
+}
+.dots div,
+.dots div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.dots div div,
+.dots div div {
+  height: 30px;
+  width: 30px;
+  background: #200043;
+  border-radius: 50%;
+}
+
+.screen {
+  height: 100px;
+  width: 160px;
+  background: #9d8ec9;
+  border: 10px solid #200043;
+}

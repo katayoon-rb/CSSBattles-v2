@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #631e1d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  transform: translate(-50%);
+  position: absolute;
+
+  height: 30px;
+  width: 250px;
+  background: #f16b4a;
+}
+.left {
+  top: 19%;
+  left: 24%;
+  rotate: -60deg;
+}
+.right {
+  top: 73%;
+  left: 45%;
+  rotate: 60deg;
+}
+.bottom {
+  top: 63.5%;
+  left: 50%;
+}

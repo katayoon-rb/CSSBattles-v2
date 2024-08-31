@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #d5edfc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rec {
+  width: 180px;
+  height: 40px;
+  background: #06487a;
+  border: 30px solid #d5edfc;
+  outline: 40px solid #06487a;
+  margin-bottom: -40px;
+}
+
+.rec::after {
+  content: "";
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  width: 40px;
+  height: 140px;
+  background: #06487a;
+}

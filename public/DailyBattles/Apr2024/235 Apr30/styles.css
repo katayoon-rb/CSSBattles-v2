@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #085328;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.LR,
+.TB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LR {
+  gap: 190px;
+}
+.TB {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  flex-direction: column;
+  gap: 120px;
+}
+
+.LR div,
+.TB div {
+  border: 40px solid #49c85b;
+  border-radius: 50px;
+  rotate: -45deg;
+}
+.LR div {
+  height: 200px;
+  width: 200px;
+}
+.TB div {
+  height: 230px;
+  width: 230px;
+}
