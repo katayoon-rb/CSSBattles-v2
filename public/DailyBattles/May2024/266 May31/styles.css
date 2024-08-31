@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #6592cf;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  width: 140px;
+  height: 140px;
+  border: 30px solid #243d83;
+  border-top-color: #557dbc;
+  border-radius: 50%;
+  rotate: 45deg;
+}
+
+.shape::before,
+.shape::after {
+  content: "";
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+  background: #243d83;
+  border-radius: 50%;
+}
+.shape::before {
+  top: 7%;
+  left: 7%;
+}
+.shape::after {
+  top: 7%;
+  left: 92%;
+}

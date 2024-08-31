@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #4f77ff;
+  gap: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dashes {
+  display: flex;
+  gap: 40px;
+}
+.dashes div {
+  width: 20px;
+  height: 60px;
+  background: #eff8fe;
+}
+
+.line {
+  width: 400px;
+  height: 20px;
+  background: #eff8fe;
+}

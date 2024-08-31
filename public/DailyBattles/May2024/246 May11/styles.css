@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #223e1f;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rec {
+  width: 300px;
+  height: 100px;
+  background: #bfe33a;
+}
+
+.smalls {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 57%;
+  left: 50%;
+
+  display: flex;
+  gap: 60px;
+}
+
+.smalls .sub {
+  display: flex;
+  gap: 20px;
+}
+
+.smalls .coverRec {
+  width: 20px;
+  height: 55px;
+  background: #223e1f;
+}

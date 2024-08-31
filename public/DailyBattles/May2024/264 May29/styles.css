@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #4f77ff;
+
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.multiply,
+.plus {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.multiply::before,
+.multiply::after,
+.plus::before,
+.plus::after {
+  content: "";
+  position: absolute;
+  top: 42.5%;
+
+  width: 20px;
+  height: 60px;
+  background: #4f77ff;
+  border-radius: 25px;
+}
+
+.multiply::before,
+.multiply::after {
+  left: 30%;
+}
+.multiply::before {
+  rotate: -45deg;
+}
+.multiply::after {
+  rotate: 45deg;
+}
+
+.plus::before,
+.plus::after {
+  left: 65%;
+}
+.plus::after {
+  rotate: 90deg;
+}

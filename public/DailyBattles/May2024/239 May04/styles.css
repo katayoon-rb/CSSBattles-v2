@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #b53733;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  background: #ea7457;
+  border: 20px solid #b53733;
+  outline: 25px solid #ea7457;
+  border-radius: 50%;
+}
+
+.line {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 60px;
+  height: 400px;
+  background: #ea7457;
+
+  border: 20px solid #b53733;
+  border-top: 0;
+  border-bottom: 0;
+}

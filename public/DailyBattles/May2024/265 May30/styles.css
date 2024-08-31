@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #f59426;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.lines {
+  display: flex;
+  gap: 40px;
+}
+.lines div {
+  width: 16px;
+  height: 40px;
+  background: #fff;
+}
+
+.trapezoid {
+  width: 200px;
+  height: 0;
+  border: 20px solid transparent;
+  border-top: 80px solid #fff;
+  border-bottom: 0;
+}

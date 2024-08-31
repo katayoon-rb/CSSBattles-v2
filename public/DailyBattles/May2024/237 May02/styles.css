@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #611b3f;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  width: 200px;
+  height: 135px;
+  background: #be3184;
+  margin-bottom: 26px;
+  clip-path: polygon(
+    50% 0%,
+    77% 40%,
+    100% 40%,
+    80% 100%,
+    20% 100%,
+    0% 40%,
+    23% 40%
+  );
+}

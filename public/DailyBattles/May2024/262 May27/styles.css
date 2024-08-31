@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #be3184;
+
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  gap: 140px;
+}
+.second {
+  gap: 60px;
+}
+
+.wrap div div {
+  width: 40px;
+  height: 400px;
+  background: #611b3f;
+}

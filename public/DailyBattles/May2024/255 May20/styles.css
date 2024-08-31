@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #eff8fe;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  width: 320px;
+  height: 230px;
+  background: #4f77ff;
+}
+.shape::after {
+  content: "";
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 73%;
+  left: 50%;
+
+  width: 350px;
+  height: 290px;
+  background: #eff8fe;
+  border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #edaf38;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line {
+  width: 320px;
+  height: 20px;
+  background: #ffffcd;
+  border-radius: 50px;
+}
+
+.triangle {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+  width: 0;
+  height: 0;
+  border: 110px solid transparent;
+  border-right: 110px solid #ffffcd;
+}

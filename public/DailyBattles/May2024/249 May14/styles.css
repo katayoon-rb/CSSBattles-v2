@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #611b3f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.trapezoid {
+  height: 0;
+  width: 110px;
+  border: 45px solid transparent;
+  border-top-color: #a1226d;
+}
+
+.rec {
+  height: 80px;
+  background: #be3184;
+}
+.topRec {
+  width: 200px;
+}
+.bottomRec {
+  width: 120px;
+  margin-top: -50px;
+}

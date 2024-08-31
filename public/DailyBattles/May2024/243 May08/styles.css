@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #f48b26;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rec {
+  width: 400px;
+  height: 200px;
+  background: #feff58;
+}
+
+.balls {
+  display: flex;
+}
+.balls div {
+  width: 200px;
+  height: 200px;
+  background: #feff58;
+  border-radius: 50%;
+}

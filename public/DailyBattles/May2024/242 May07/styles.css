@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #0a6190;
+  gap: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sq {
+  width: 200px;
+  height: 180px;
+  background-image: linear-gradient(to bottom, #328fc1 50%, #eff8fe 50%);
+}
+
+.dots {
+  display: flex;
+  gap: 15px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.dots div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.topDots {
+  top: 35%;
+  left: 43.5%;
+}
+.topDots div {
+  background: #eff8fe;
+}
+
+.bottomDots {
+  top: 65%;
+  left: 56.5%;
+}
+.bottomDots div {
+  background: #328fc1;
+}
