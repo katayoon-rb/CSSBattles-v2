@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #BB2726;
+
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  overflow: hidden;
+}
+
+.face {
+  width: 216px;
+  height: 335px;
+  background: #F3AC3C;
+}
+
+.hat {
+  position: absolute;
+  top: 0%;
+  
+  width: 80px;
+  height: 114px;
+  background: #BB2726;
+  
+  border: 33px solid #F3AC3C;
+  border-top: 0;
+  border-bottom-width: 58px;
+  outline: 10px solid #BB2726;
+}
+
+.eyes {
+  position: absolute;
+  top: 43%;
+  display: flex;
+  gap: 36px;
+}
+.eyes div {
+  width: 45px;
+  height: 10px;
+  background: #fff;
+  border: 10px solid #BB2726;
+}
+
+.mouth {
+  position: absolute;
+  top: 72%;
+
+  width: 96px;
+  height: 40px;
+  border: 10px solid #BB2726;
+}
+
+.mouth::before,
+.mouth::after {
+  content: '';
+  position: absolute;
+  top: -225%;
+
+  width: 75px;
+  height: 125px;
+  border: 10px solid #BB2726;
+}
+.mouth::before {
+  left: -95px;
+  border-top-right-radius: 150px;
+}
+.mouth::after {
+  left: 95px;
+  border-top-left-radius: 150px;
+}
