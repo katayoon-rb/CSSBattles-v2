@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #FAE29E;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  
+  width: 60px;
+  height: 120px;
+  background: #EA9A52;
+  border-radius: 50px;
+}
+.noodle1 {
+  top: 50%;
+  left: 26%;
+}
+.noodle2 {
+  top: 15%;
+  left: 71%;
+  rotate: -60deg;
+}
+.noodle3 {
+  top: 70%;
+  left: 45%;
+  rotate: 60deg;
+}
