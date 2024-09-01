@@ -50,7 +50,9 @@ function Battle() {
             "03 Magnetos helmet",
             "04 Punisher",
             "05 Green Lantern logo",
-            "06 Hulk fist"
+            "06 Hulk fist",
+            "07 Iron man",
+            "08 Black widow logo"
         ]
     }
 
