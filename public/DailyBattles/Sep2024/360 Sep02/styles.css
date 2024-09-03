@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #B6EBE7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape div {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  
+  width: 200px;
+  height: 200px;
+  background: #9382E4;
+}
+.sq2 {
+  rotate: 45deg;
+}
+
+.sq {
+  width: 100px;
+  height: 100px;
+  background: #B6EBE7;
+  z-index: 2;
+}

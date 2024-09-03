@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F3F3F3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line {
+  display: flex;
+  gap: 50px;
+}
+.line.top {
+  gap: 150px;
+}
+  
+.sq {
+  width: 50px;
+  height: 50px;
+  background: #C64F4F;
+}
