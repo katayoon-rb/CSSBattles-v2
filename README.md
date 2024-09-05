@@ -10,7 +10,7 @@ CSS Battle is a unique platform that tests your CSS skills through a series of e
 
 Before you embark on the CSS Battle journey, it's helpful to have a solid understanding of:
 
-👉 HTML structure and elements.
+👉 HTML structure and elements. 
 👉 CSS styling and layout properties.
 👉 Basic web design principles.
 👉 Familiarity with CSS positioning (e.g., relative, absolute).
