@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #9076D8;
+  gap: 13.5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.top, .bottom {
+  display: flex;
+  gap: 16px;
+}
+.top { align-items: flex-end; }
+  
+.one, .two,
+.three, .four {
+  width: 44px;
+  background: #F3EAD2;
+}
+.one { height: 93px; }
+.two { height: 63px; }
+.three { height: 42px; }
+.four { height: 28px; }
