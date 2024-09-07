@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #DE817E;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left, .right {
+  width: 60px;
+  height: 60px;
+  border: 43px solid #217E81;
+  margin: 0 -22.5px;
+  rotate: 45deg;
+}
+.left {
+  border-top: 0;
+  border-right: 0;
+}
+.right {
+  border-bottom: 0;
+  border-left: 0;
+}
