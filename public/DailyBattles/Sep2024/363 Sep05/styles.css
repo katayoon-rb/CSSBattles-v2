@@ -12,7 +12,8 @@ body {
 .wrap {
   width: 400px;
   height: 400px;
-  background: #328FC1;
+  background: #9076D8;
+  gap: 13.5px;
 
   display: flex;
   flex-direction: column;
@@ -21,41 +22,18 @@ body {
   overflow: hidden;
 }
 
-.top, .bottom { display: flex; }
+.top, .bottom {
+  display: flex;
+  gap: 16px;
+}
 .top { align-items: flex-end; }
   
-.tail {
-  width: 70px;
-  height: 70px;
-  background: #FADE8B;
-  margin: -18px -15px;
+.one, .two,
+.three, .four {
+  width: 44px;
+  background: #F3EAD2;
 }
-.top .tail { rotate: 30deg; }
-.bottom .tail { rotate: -30deg; }
-
-.head {
-  width: 100px;
-  height: 70px;
-  background: #FADE8B;
-  margin: -22.5px -16px;
-}
-.top .head {
-  rotate: -30deg;
-  border-radius: 0 30px 0 0;
-}
-.bottom .head {
-  rotate: 30deg;
-  border-radius: 0 0 30px 0;
-}
-
-.eye {
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 46.25%;
-  left: 63.25%;
-  
-  width: 10px;
-  height: 10px;
-  border: 5px solid #222;
-  border-radius: 50%;
-}
+.one { height: 93px; }
+.two { height: 63px; }
+.three { height: 42px; }
+.four { height: 28px; }
