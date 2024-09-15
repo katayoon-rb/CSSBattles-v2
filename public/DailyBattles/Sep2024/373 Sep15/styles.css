@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #050044;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap div {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.one, .three, .five {
+  background: #050044;
+  border: 10px solid #328FC1;
+}
+.two, .four {
+  background: #328FC1;
+}
+  
+.one { top: 35%; }
+.two { top: 45%; }
+.three { top: 52.5%; }
+.four { top: 62.5%; }
+.five { top: 70%; }
