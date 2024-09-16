@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #191919;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rec {
+  width: 200px;
+  height: 140px;
+  background: #EA333D;
+  border-radius: 40px;
+}
+.tri {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  border-left: 55px solid #FFF;
+}
