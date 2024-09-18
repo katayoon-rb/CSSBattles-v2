@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #49C85B;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.top, .bottom {
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  margin: -26px 0;
+}
+.top {
+  border-bottom: 135px solid #2F5A76;
+}
+.bottom {
+  border-top: 135px solid #2F5A76;
+}
