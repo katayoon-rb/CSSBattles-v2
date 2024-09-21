@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #4A9A86;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left, .right {
+  width: 100px;
+  height: 50px;
+}
+.left {
+  background: linear-gradient(to right, #FAE29E 50%, #4A9A86 50%);
+}
+.right {
+  background: linear-gradient(to left, #FAE29E 50%, #4A9A86 50%);
+}
