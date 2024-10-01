@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F3EAD2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sq {
+  width: 200px;
+  height: 200px;
+  background: #EAC049;
+}
+
+.tri {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 120px solid #F3EAD2;
+  border-right: 120px solid transparent;
+}

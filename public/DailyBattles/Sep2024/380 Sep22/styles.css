@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #E3516E;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 120px;
+  height: 160px;
+  background: #FADE8B;
+  border-radius: 1in;
+}
+
+.container div {
+  position: absolute;
+  top: 110px;
+  left: 70px;
+
+  background: #FADE8B;
+  border: 10px solid#E3516E;
+  border-radius: 1in;
+  padding: 30px;
+}
+
+.container .four {
+  padding: 40px;
+  top: 84px;
+  left: 50px;
+}
+.container .three {
+  padding: 50px;
+  top: 60px;
+  left: 30px;
+}
+.container .two {
+  padding: 60px;
+  top: 35px;
+  left: 10px;
+}
+.container .one {
+  padding: 70px;
+  top: 10px;
+  left: -10px;
+}
