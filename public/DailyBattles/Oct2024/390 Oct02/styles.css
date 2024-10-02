@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #6B7CBE;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.ball {
+  width: 492px;
+  height: 350px;
+  background: #ABC497;
+  border-radius: 50%;
+  margin-bottom: -320px;
+  margin-right: -47px;
+}
+  
+.line {
+  transform: translate(-50%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  width: 50px;
+  height: 0;
+  border: 30px solid transparent;
+  border-bottom: 215px solid #FFFEFE;
+}
