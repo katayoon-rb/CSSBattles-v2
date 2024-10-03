@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #FADE8B;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.oval {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 42.5%;
+  left: 50%;
+  
+  width: 160px;
+  height: 16px;
+  border: solid #594C94;
+  border-width: 32px 50px;
+  border-radius: 50%;
+}
+  
+.line {
+  width: 80px;
+  height: 260px;
+  background: #594C94;
+}
