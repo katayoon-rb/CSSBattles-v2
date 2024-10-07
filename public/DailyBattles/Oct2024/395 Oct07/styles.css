@@ -1,0 +1,36 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #243D83;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border: 50px solid #6592CF;
+  border-radius: 50%;
+}
+
+.TL, .TR,
+.BR, .BL {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  background: #6592CF;
+}
+.TL { top: 0; left: 0; }
+.TR { top: 0; right: 0; }
+.BR { bottom: 0; right: 0; }
+.BL { bottom: 0; left: 0; }
