@@ -1,0 +1,31 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #8AB8B6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.yellow,
+.red {
+  width: 60px;
+  height: 60px;
+}
+.yellow {
+  background: #F3EAD2;
+  border-radius: 50px 0 0 50px;
+}
+.red {
+  background: #D96C7B;
+  border-radius: 50%;
+}
