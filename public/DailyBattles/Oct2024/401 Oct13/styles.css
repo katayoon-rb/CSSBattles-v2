@@ -1,0 +1,45 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  border: 1px solid;
+  gap: 60px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 120px;
+  height: 160px;
+  background: #000;
+}
+
+.ver {
+  width: 30px;
+  height: 120px;
+  background: #fff;
+}
+
+.hor {
+  width: 50px;
+  height: 10px;
+  background: #fff;
+  margin: 40px 0;
+}
+.center {
+  height: 20px;
+}
