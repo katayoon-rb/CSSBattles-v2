@@ -1,0 +1,30 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #558C90;
+  gap: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #325853;
+}
+.line {
+  width: 200px;
+  height: 30px;
+  background: #325853;
+}
