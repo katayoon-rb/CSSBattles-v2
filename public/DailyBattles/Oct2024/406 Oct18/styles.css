@@ -1,0 +1,45 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #191210;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 240px;
+  height: 240px;
+  background: #84271C;
+}
+
+.cover {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.cover>div {
+  display: flex;
+  gap: 80px;
+}
+
+.sq {
+  width: 150px;
+  height: 150px;
+  background: #191210;
+  border-radius: 40px;
+}
