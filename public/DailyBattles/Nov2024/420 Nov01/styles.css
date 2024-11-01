@@ -1,0 +1,40 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #515697;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 360px;
+  height: 338px;
+  background: #E38F66;
+  border-radius: 75% 75% 0 0 ;
+}
+
+.lines {
+  position: absolute;
+  display: flex;
+  gap: 72px;
+}
+.lines div {
+  display: flex;
+  gap: 36px;
+}
+.line {
+  width: 36px;
+  height: 122.5px;
+  background: #515697;
+}
