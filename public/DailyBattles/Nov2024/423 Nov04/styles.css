@@ -1,0 +1,32 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #2F5A76;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.wrap div {
+  width: 40px;
+  height: 40px;
+  background: #F5BB60;
+}
+.wrap .center { width: 80px; }
+.wrap .long { height: 80px; }
+.wrap .short { height: 40px; }
+
+.one { margin-bottom: -260px; }
+.two { margin-bottom: -140px; }
+.three { margin-bottom: -20px; }
+.four { margin-bottom: 100px; }
+.center { margin-bottom: 220px; }
