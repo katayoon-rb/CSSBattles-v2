@@ -1,0 +1,41 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #61A74E;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.top {
+  width: 140px;
+  height: 100px;
+  background: #FADE8B;
+  border-radius: 50px;
+}
+
+.bottom {
+  display: flex;
+  margin-top: -22px;
+}
+.bottom div {
+  width: 60px;
+  height: 60px;
+  background: #FADE8B;
+}
+.left {
+  border-radius: 10px 0 10px 50px;
+}
+.right {
+  border-radius: 0 10px 50px 10px;
+}
