@@ -1,0 +1,38 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #0B2429;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  margin: -5px;
+}  
+.top, .bottom,
+.left, .right {
+  width: 100px;
+  height: 70px;
+  background: #F3AC3C;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background: #998235;
+  border-radius: 50%;
+  margin: -5px;
+}
