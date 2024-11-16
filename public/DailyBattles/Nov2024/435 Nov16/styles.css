@@ -1,0 +1,24 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #6592CF;
+  gap: 45px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.line { display: flex; gap: 35px; }  
+.line div { width: 70px; height: 30px; }
+.yellow { background: #EEB850; }
+.blue { background: #243D83; }
