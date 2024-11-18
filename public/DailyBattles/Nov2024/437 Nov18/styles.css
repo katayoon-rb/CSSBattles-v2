@@ -1,0 +1,57 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #2F5A76;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.point .main,
+.point .cover {
+  height: 175px;
+  border-radius: 50%;
+}
+.point .main {
+  width: 220px;
+  background: #F5BB60;
+}
+.point .cover {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 180px;
+  background: #2F5A76;
+}
+
+.line {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 52.75%;
+  left: 50%;
+  
+  width: 40px;
+  height: 150px;
+  background: #F5BB60;
+}
+
+.cover {
+  position: absolute;
+  display: flex;
+  gap: 120px;
+}
+.cover div {
+  width: 60px;
+  height: 175px;
+  background: #2F5A76;
+}
