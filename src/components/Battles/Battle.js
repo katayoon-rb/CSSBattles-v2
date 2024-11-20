@@ -55,6 +55,18 @@ function Battle() {
             "08 Black widow logo"
         ]
     }
+    else if (name === 'Outline') {
+        list = [
+            "01 CSS Weekly",
+            "02 Fibonacci peacock",
+            "03 Boat",
+            "04 Newspaper",
+            "05 Staggered checks",
+            "06 Pies",
+            "07 Maze",
+            "08 3D"
+        ]
+    }
 
     return (
         <div className="App">
