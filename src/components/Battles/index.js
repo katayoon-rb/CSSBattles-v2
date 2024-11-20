@@ -9,6 +9,7 @@ function DailyTargets() {
                 <Card title="Battle 30 - Gradient" />
                 <Card title="Battle 31 - Opacity" />
                 <Card title="Battle 32 - Animation" /> 
+                <Card title="Battle33 - Outline" /> 
             </div>
         </div>
     );
