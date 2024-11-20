@@ -1,0 +1,34 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #202939;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rhombus {
+  width: 50px;
+  height: 50px;
+  transform: skewY(30deg);
+}
+.white { background: #fff; }
+.dark { background: #556787; }
+
+.left, .right,
+.TL, .BR {
+  position: absolute;
+}
+.left { top: 48.7%; left: 38.7%; }
+.right { top: 38.7%; left: 48.7%; }
+.TL { top: 30%; left: 30%; }
+.BR { top: 57.5%; left: 57.5%; }
