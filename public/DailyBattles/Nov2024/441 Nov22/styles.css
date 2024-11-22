@@ -1,0 +1,43 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #ECD5E4;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center {
+  width: 180px;
+  height: 90px;
+  background: #984842;
+}
+  
+.smalls {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 240px;
+}
+.top, .bottom {
+  display: flex;
+  gap: 270px;
+}
+.rec {
+  width: 65px;
+  height: 80px;
+  background: #984842;
+}
