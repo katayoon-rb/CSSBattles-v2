@@ -14,20 +14,15 @@ function Month() {
     let CardList = [];
     for (let d = 0; d < numOfDays; d++) {
         let date = params[0].slice(0, 3) + (d + 1 < 10 ? `0${d + 1}`: d + 1)
-        if (date === 'Nov05') {
-            continue 
-        }
-        else {
-            CardList.push(
-                <CardImg
-                    key={date}
-                    day={parseInt(params[1]) + d}
-                    month={params[0].slice(0, 3)}
-                    date={date}
-                    year={year}
-                />
-            );
-        }
+        CardList.push(
+            <CardImg
+                key={date}
+                day={parseInt(params[1]) + d}
+                month={params[0].slice(0, 3)}
+                date={date}
+                year={year}
+            />
+        );
     }
 
     return (
