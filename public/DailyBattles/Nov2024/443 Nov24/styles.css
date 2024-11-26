@@ -8,7 +8,8 @@ body {
 .wrap {
   width: 400px;
   height: 400px;
-  background: #E8AD6D;
+  background: #328FC1;
+  gap: 25px;
   
   display: flex;
   justify-content: center;
@@ -16,23 +17,13 @@ body {
   overflow: hidden;
 }
 
-.line {
-  width: 60px;
-  height: 240px;
-  background: #7E6293;
-  border-radius: 50px;
-}
-
-.lines {
+.wrap div {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin: -90px 0 0 -60px;
+  gap: 25px;
 }
-.lines div {
-  height: 60px;
-  background: #7E6293;
-  border-radius: 50px;
+.rec {
+  width: 100px;
+  height: 20px;
+  background: #EEB850;
 }
-.big { width: 160px; }
-.small { width: 120px; }
