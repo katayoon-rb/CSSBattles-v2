@@ -8,8 +8,7 @@ body {
 .wrap {
   width: 400px;
   height: 400px;
-  background: #328FC1;
-  gap: 25px;
+  background: #EEB850;
   
   display: flex;
   justify-content: center;
@@ -17,13 +16,23 @@ body {
   overflow: hidden;
 }
 
-.wrap div {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
+.main {
+  width: 220px;
+  height: 110px;
+  background: #243D83;
+  border-radius: 20px;
 }
-.rec {
-  width: 100px;
-  height: 20px;
+  
+.main::before,
+.main::after {
+  content: '';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  
+  width: 70px;
+  height: 15px;
   background: #EEB850;
 }
+.main::before { top: 43%; }
+.main::after { top: 56.75%; }
