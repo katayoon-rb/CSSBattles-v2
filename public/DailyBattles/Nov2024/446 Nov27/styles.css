@@ -1,0 +1,37 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #C0D6E7;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 0;
+  height: 0;
+  border: 115px solid transparent;
+  border-bottom: 230px solid #D95362;
+  margin-top: -115px;
+}
+
+.main::after {
+  content: '';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  width: 200px;
+  height: 40px;
+  background: #C0D6E7;
+}
