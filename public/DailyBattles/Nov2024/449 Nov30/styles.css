@@ -1,0 +1,47 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F3EAD2;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.V {
+  display: flex;
+  gap: 16px;
+}
+.V div {
+  width: 43px;
+  height: 140px;
+}  
+.V .dark {
+  transform: skew(20deg);
+  background: #8F3F4A;
+  z-index: 1;
+}
+.V .light {
+  transform: skew(-20deg);
+  background: #D96C7B;
+}
+  
+.line {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 47.5%;
+  left: 50%;
+  z-index: 2;
+  
+  width: 400px;
+  height: 30px;
+  background: linear-gradient(to bottom, #8F3F4A 65%, #F3EAD2 65%);
+}
