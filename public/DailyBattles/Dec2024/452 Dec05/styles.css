@@ -1,0 +1,32 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F2EAA8;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.big, .medium, .small {
+  border-radius: 50%;
+}
+  
+.big, .small {
+  background: linear-gradient(to bottom, #7E6293 50%, #DE6B67 50%);
+}
+.medium {
+  background: linear-gradient(to bottom, #DE6B67 50%, #7E6293 50%);
+}
+
+.big { width: 200px; height: 200px; }
+.medium { width: 100px; height: 100px; }
+.small { width: 50px; height: 50px; }
