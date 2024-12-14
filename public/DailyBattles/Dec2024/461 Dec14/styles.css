@@ -1,0 +1,37 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #2F5A76;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cross::before,
+.cross::after {
+  content: '';
+  transform: translate(-50%, -50%) rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #F5BB60;
+}
+.cross::before { width: 100px; height: 200px; }
+.cross::after { width: 200px; height: 100px; }
+  
+.main {
+  width: 100px;
+  height: 100px;
+  background: #F5BB60;
+  outline: 20px solid #2F5A76;
+  rotate: 45deg;
+}
