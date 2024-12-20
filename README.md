@@ -1,6 +1,6 @@
 # CSSBattles-v2 🚀
 The neater version of the previous repo
-Welcome to CSS Battle! 🎉
+Welcome to CSS Battle! 🎉 
 
 ## Challenge Overview 🗺️
 
