@@ -1,0 +1,44 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #5393BD;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.square {
+  width: 110px;
+  height: 110px;
+  background: #D96C7B;
+}
+
+.angle .hor,
+.angle .ver {
+  width: 30px;
+  height: 30px;
+  background: #FAE29E;
+}
+.angle .hor { height: 170px; }
+.angle .ver { width: 200px; }
+
+.crossed {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 52.5%;
+  left: 23%;
+  
+  width: 170px;
+  height: 30px;
+  background: #FAE29E;
+}
