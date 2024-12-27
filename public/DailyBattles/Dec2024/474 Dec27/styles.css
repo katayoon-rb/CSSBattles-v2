@@ -1,0 +1,38 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #61A74E;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hor, .ver {
+  width: 80px;
+  height: 80px;
+  border: 40px solid #EFF8FE;
+}
+.hor {
+  width: 400px;
+  border-left: 0;
+  border-right: 0;
+}
+.ver {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  
+  height: 240px;
+  border-top: 0;
+  border-bottom: 0;
+}
