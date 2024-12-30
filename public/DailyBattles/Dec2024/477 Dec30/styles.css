@@ -1,0 +1,39 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #3F4869;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 130px;
+  height: 130px;
+  background: #EFCB5C;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.main::after {
+  content: '';
+  display: block;
+  margin-left: -100px;
+  margin-top: -25px;
+  
+  width: 100px;
+  height: 120px;
+  background: #3F4869;
+  
+  border: 30px solid #978963;
+  border-radius: 50%;
+}
