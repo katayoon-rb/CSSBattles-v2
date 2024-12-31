@@ -1,0 +1,25 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #328FC1;
+  gap: 100px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.wrap div {
+  width: 200px;
+  height: 325px;
+  background: #FADE8B;
+  border-radius: 0 0 80px 80px;
+}
