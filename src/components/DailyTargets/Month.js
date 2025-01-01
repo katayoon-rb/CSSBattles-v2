@@ -4,7 +4,12 @@ import CardImg from "../CardImg";
 function Month() {
     const params = useParams().params.split('-')
 
-    const [month, year] = params[0].split('20')
+    if (params = 'December2024v2-450') {
+        const [month, year] = params[0].split('20').split('v2')[0]
+    }
+    else {
+        const [month, year] = params[0].split('20')
+    }
     function getMonthNum(monthName, yearNum) {
         return new Date(`${monthName} 1, 20${yearNum}`).getMonth() + 1;
     }
