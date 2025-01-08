@@ -1,0 +1,45 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #D95362;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle {
+  width: 220px;
+  height: 220px;
+  background: #2D3464;
+  border-radius: 50%;
+}
+
+.cover,
+.cover::after {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  width: 40px;
+  height: 40px;
+  background: #D95362;
+}
+.cover {
+  top: 50%;
+  width: 150px;
+}
+.cover::after {
+  content: '';
+  top: -40%;
+  height: 80px;
+}
