@@ -1,0 +1,38 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #FFE4E0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 50px;
+  height: 120px;
+  background: #E05947;
+}
+
+.main::after {
+  content: '';
+  transform: translate(-50%, -50%) rotate(45deg);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  width: 200px;
+  height: 200px;
+  border: 50px solid transparent;
+  border-right-color: #E05947;
+  border-bottom-color: #E05947;
+  border-radius: 50%;
+}
