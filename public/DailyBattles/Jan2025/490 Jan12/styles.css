@@ -1,0 +1,50 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #668884;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 340px;
+  height: 240px;
+  background: #EED9D9;
+}
+
+.cover {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover div {
+  height: 40px;
+  background: #668884;
+}
+.one, .six { width: 85px; }
+.two, .five { width: 160px; }
+.three, .four { width: 195px; }
+  
+.one { margin-left: -210px; }
+.two { margin-left: -110px; }
+.three { margin-left: -35px; }
+.four { margin-left: 35px; }
+.five { margin-left: 110px; }
+.six { margin-left: 210px; }
