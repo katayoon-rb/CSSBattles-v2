@@ -1,0 +1,18 @@
+* {
+  background: #E0E7FF;
+}
+.main {
+  position: relative;
+  padding: 75 20;
+  margin: 75 152;
+  overflow: hidden;
+  clip-path: circle(75% at -13% 50%);
+}
+
+.inner {
+  padding: 90;
+  position: absolute;
+  border-radius: 1in;
+  margin: -90-20;
+  background: linear-gradient(#328FC1 50%, #2D3464 0)
+}
