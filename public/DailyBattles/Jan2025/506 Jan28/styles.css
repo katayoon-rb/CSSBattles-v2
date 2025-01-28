@@ -1,0 +1,34 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #D08825;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.vertical {
+  width: 120px;
+  height: 400px;  
+  background: #2D3464;
+}
+
+.horizontal {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  width: 400px;
+  height: 130px;  
+  background: linear-gradient(to right, #FADE8B 32.5%, #2D3464 32.5%, #2D3464 50%, #FADE8B 50%, #FADE8B 82.5%, #2D3464 82.5%);
+}
