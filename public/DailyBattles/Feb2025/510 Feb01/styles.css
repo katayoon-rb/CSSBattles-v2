@@ -1,0 +1,27 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #EBE77E;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.top,
+.bottom {
+  width: 160px;
+  height: 70px;
+  background: #DE817E;
+}
+.top { transform: skew(-40deg); }
+.bottom { transform: skew(40deg); }
