@@ -1,0 +1,43 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #D95362;
+  gap: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left {
+  width: 80px;
+  height: 220px;
+  background: #FDFFE9;
+}
+
+.right,
+.right::before,
+.right::after {
+  width: 50px;
+  height: 50px;
+  background: #FDFFE9;
+  border-radius: 50%;
+}
+  
+.right::before,
+.right::after {
+  content: '';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 62.5%;
+}
+.right::before { top: 28.5%; }
+.right::after { top: 71%; }
