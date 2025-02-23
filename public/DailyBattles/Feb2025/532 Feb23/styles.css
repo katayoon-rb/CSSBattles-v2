@@ -1,0 +1,23 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #EAC049;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 180px;
+  height: 400px;
+  background: linear-gradient(#51A499 25%, #EAC049 25%, #EAC049 31%, #51A499 31%, #51A499 37%, #EAC049 37%, #EAC049 43.5%, #51A499 43.5%, #51A499 56%, #EAC049 56%, #EAC049 62.5%, #51A499 62.5%, #51A499 68.5%, #EAC049 68.5%, #EAC049 75%, #51A499 75%);
+}
