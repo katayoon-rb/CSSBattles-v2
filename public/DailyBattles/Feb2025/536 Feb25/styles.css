@@ -1,0 +1,35 @@
+* { margin: 0; }
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F2EAA8;
+  gap: 50px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shape {
+  width: 90px;
+  height: 50px;
+  background: #3F4869;
+  border: solid #F2EAA8;
+  border-width: 25px 20px;
+  outline: 25px solid #3F4869;
+}
+
+.top,
+.bottom {
+  width: 360px;
+  height: 100px;
+  background: #3F4869;
+}
